@@ -2,7 +2,7 @@
 
 Welcome to the official repository of **ATHENA**, the Technical and Gaming Society of **Bharati Vidyapeeth College of Engineering (BVCOE)**. This project is a modern, fully responsive, and scalable web platform that showcases our events, achievements, and community spirit.
 
-🌐 **Live Website**: [athena-tech-bvcoe.netlify.app](https://athena-tech-bvcoe.netlify.app)
+🌐 **Live Website**: [ATHENA BVCOE](https://athena-tech-bvcoe.netlify.app)
  **🏛️ College Website:**: [BVCOE Official Site](https://bvcoend.ac.in/)              
  
  Steps To follow:-*BVCOE Official Site → Life@BVCOE → Student Chapter Cell → Technical Society → ATHENA*
