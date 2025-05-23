@@ -56,15 +56,66 @@ Open http://localhost:5173 to preview the project locally.
 🗂 Project Structure
 ```sh
 ATHENA-GLITCH-GALLERY/
-├── public/               # Static assets
-├── src/                  # Main source code (React + TS)
-├── components.json       # Dynamic UI component registry
-├── index.html            # Main HTML shell
-├── tailwind.config.ts    # Tailwind CSS configuration
-├── vite.config.ts        # Vite config for build optimization
-├── tsconfig.*.json       # TypeScript configurations
-├── eslint.config.js      # Linting rules
-└── README.md             # Project documentation
+│
+├── public/                         # Static public assets
+│   └── assets/
+│       ├── images/
+│       │   ├── athena-logo.png     # Athena official logo (public reference)
+│       │   └── suman_maam.jpg      # Image asset
+│
+├── src/                            # Main source folder (React + TypeScript)
+│   ├── assets/
+│   │   └── images/                 # Local images used inside components
+│   │       ├── athena-logo.png
+│   │       └── suman_maam.jpg
+│   │
+│   ├── components/                 # All reusable UI and layout components
+│   │   ├── ui/                     # ShadCN-inspired modular UI components
+│   │   │   ├── accordion.tsx
+│   │   │   ├── alert.tsx
+│   │   │   ├── button.tsx
+│   │   │   ├── ... (etc)          # Includes input, modal, table, toast, etc.
+│   │   │   └── use-toast.ts       # Custom toast utility
+│   │   │
+│   │   ├── Footer.tsx             # Website footer
+│   │   ├── Hero.tsx               # Main landing section
+│   │   ├── Logo.tsx               # Athena logo component
+│   │   ├── Navbar.tsx             # Navigation bar
+│   │   ├── PastEvents.tsx         # Display past events
+│   │   ├── PastTeamMembers.tsx    # Alumni team members showcase
+│   │   ├── TeamSection.tsx        # Current team members section
+│   │   └── UpcomingEvents.tsx     # Events scheduled in the future
+│   │
+│   ├── hooks/                     # Custom React hooks
+│   │   ├── use-mobile.tsx         # Mobile screen hook
+│   │   └── use-toast.ts           # Toast management logic
+│   │
+│   ├── lib/
+│   │   └── utils.ts               # Utility/helper functions
+│   │
+│   ├── pages/                     # Pages directory (if using routing)
+│   │
+│   ├── App.css                    # App-level custom styles
+│   ├── App.tsx                    # Main App component
+│   ├── index.css                  # Tailwind base/global styles
+│   ├── main.tsx                   # React DOM rendering entry
+│   └── vite-env.d.ts              # Vite TypeScript environment declarations
+│
+├── components.json                # Dynamic component registry (optional)
+├── index.html                     # Main HTML shell used by Vite
+├── tailwind.config.ts            # Tailwind configuration
+├── vite.config.ts                # Vite configuration for build and dev
+├── tsconfig.json                 # Root TypeScript configuration
+├── tsconfig.app.json             # App-specific TypeScript config
+├── tsconfig.node.json            # Node-related TypeScript config
+├── eslint.config.js              # Linting and code rules
+├── postcss.config.js             # PostCSS plugin configuration
+├── package.json                  # Project dependencies and scripts
+├── package-lock.json             # Dependency lockfile
+├── .gitignore                    # Files and folders ignored by Git
+├── README.md                     # Project documentation
+└── SECURITY.md                   # Security policies
+
 ```
 🔄 Deployment
 This project is deployed using Netlify for seamless CI/CD and fast global delivery.
