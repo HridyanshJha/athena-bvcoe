@@ -55,7 +55,7 @@ npm run dev
 
 Open http://localhost:5173 to preview the project locally.
 
-🗂 Project Structure
+## 🗂 Project Structure
 ```sh
 ATHENA-GLITCH-GALLERY/
 │
