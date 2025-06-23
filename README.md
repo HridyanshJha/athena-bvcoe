@@ -130,13 +130,13 @@ npm run build
 ```
 Upload the dist/ folder to Netlify or any static host of choice.
 
-🔐 Security & Maintenance
+## 🔐 Security & Maintenance
 Security protocols and best practices are followed as per standard front-end guidelines.
 Refer to SECURITY.md for issue reporting and responsible disclosure.
 Regular dependency updates are performed to prevent vulnerabilities.
 
 
-📊 Application Flowchart:
+## 📊 Application Flowchart:
 ```sh
               ┌───────────────┐
               │   Homepage    │
