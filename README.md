@@ -1,4 +1,4 @@
-# ATHENA: Glitch Gallery – Official Website
+# ATHENA: Tech – Official Website
 
 Welcome to the official repository of **ATHENA**, the Technical and Gaming Society of **Bharati Vidyapeeth College of Engineering (BVCOE)**. This project is a modern, fully responsive, and scalable web platform that showcases our events, achievements, and community spirit.
 
